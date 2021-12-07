@@ -1,8 +1,9 @@
 .App {
-  text-align: center;
+  display: flex;
+  flex-direction: row;
 }
 
-.App-logo {
+/*.App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,4 +36,32 @@
   to {
     transform: rotate(360deg);
   }
+}*/
+
+.App navBar{
+  background-color: grey;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 20px;
+}
+
+.titulo{
+  color: rgb(5, 92, 12);
+}
+
+.menu{
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+}
+
+.lista{
+  display: inline;
+  margin: 15px;
+}
+
+.lista a{
+  text-decoration: none;
+  color: white;
 }
