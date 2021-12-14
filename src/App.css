@@ -1,6 +1,6 @@
 .App {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 /*.App-logo {
@@ -39,15 +39,10 @@
 }*/
 
 .App navBar{
-  background-color: grey;
-  width: 100%;
+  background-color: rgb(245, 151, 148);
   display: flex;
   justify-content: space-between;
   padding: 0px 20px;
-}
-
-.titulo{
-  color: rgb(5, 92, 12);
 }
 
 .menu{

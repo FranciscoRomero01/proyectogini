@@ -1,9 +1,14 @@
 import React from "react"
+import icono from "./icono";
 
-function NavBar() {
+const componentes = {
+  icono: icono
+}
+
+function NavBar(props) {
     return(
         <navBar>
-          <h1 className="titulo">Taller Gini</h1>
+          <componentes.icono></componentes.icono>
           <ul className="menu"> 
             <li className="lista"> <a href="#">Inicio</a> </li>
             <li className="lista"> <a href="#">Nosotros</a> </li>
